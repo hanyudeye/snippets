@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: do
+# key: do loop
+# --
+(do ((n 0 (1+ n)))
+((>= n 4))
+(print n))
+

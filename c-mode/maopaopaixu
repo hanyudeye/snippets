@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+#name : maopaopaixu
+#key : maopaopaixu
+#contributor : wuming
+# --
+  for (int i = 0; i < $2; i++) {
+    for (int j = i; j < $2 - i; j++) {
+      if ($4[j] > $4[j + 1]) {
+        int tmp = $4[j + 1];
+        $4[j + 1] = $4[j];
+        $0[j] = tmp;
+      }
+    }
+  }
+

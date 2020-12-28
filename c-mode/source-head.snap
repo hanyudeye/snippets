@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: C-source-header
+# key: header
+# --
+
+/*`(insert-char ?* 78)`
+*
+*  File:             `(if buffer-file-name (insert (file-name-base buffer-file-name) (file-name-extension buffer-file-name t)))`
+*  Created:     `(format-time-string "%Y-%m-%d")`
+*  Author:       Wu Ming
+*  Mail:           1191552161@qq.com
+*  PURPOSE:   $3
+*
+*/
+
+

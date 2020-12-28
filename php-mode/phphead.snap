@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: phphead
+# key: phphead
+# --
+<?php
+ini_set("display_errors","On");
+error_reporting(E_ALL); //-1 是关闭

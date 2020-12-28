@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: tags
+# key: tags
+# --
+#+TAGS: $1
+

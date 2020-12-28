@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: hexohead
+# key: hexohead
+# --
+#+TITLE: $1
+#+DESCRIPTION: $2
+#+TAGS: $3
+#+CATEGORIES: 软件使用
+

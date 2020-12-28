@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: skelog
+# key: skelog
+# --
+skewer.log($1)
